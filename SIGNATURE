@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 e0a717659a772c0c5ad1b7064c0253d2d4d66389 Changes
-SHA1 11cea98f0f34df50ab28a45db24ab7f288143381 MANIFEST
-SHA1 1dd2e3c2a3bfe7f15de250ecc198ad01f3d37cf2 MANIFEST.SKIP
-SHA1 155ee802c38a31a39654c26ad784dae6acaeaf2e META.yml
+SHA1 bee3bd8d87de0243f2d3b63d3b4316bacad2d8ae Changes
+SHA1 6df0d1280af265a39224aab3cb56e5d8e3659584 MANIFEST
+SHA1 82d5b8f822ebe412d51d270950843c6bebcb4a02 MANIFEST.SKIP
+SHA1 6aeb8e4de78048f6492cfce23870b7d0f3cc7b41 META.yml
 SHA1 6b8d23797e0c630d18ef880f0e3bdc1697983620 Makefile.PL
 SHA1 56ec8fb179b5a06c23553df5105780af6a5cd1f4 README
 SHA1 cf8c8a35c5503cb474d671d6f6f331a4ab4e0c8c examples/coin_toss.pl
@@ -26,15 +26,14 @@ SHA1 b1a70869c098ba602151631386fc510b5bfd3511 inc/Module/Install/Base.pm
 SHA1 d864f4a0dd148e4651cbe29c54c2ffc94d0f05f7 inc/Module/Install/MakeMaker.pm
 SHA1 176d68fe7c07b6ab7cfe09093078b8127bbde786 inc/Module/Install/Makefile.pm
 SHA1 8b37b38215d14f922b3d5132ce33d11d21d531ba inc/Module/Install/Metadata.pm
-SHA1 773a169d632a63c07ade15441af93e4ce0ac8262 lib/Math/RandomOrg.pm
+SHA1 f8369e286f442f934dee4df7d62f690fe3f3416d lib/Math/RandomOrg.pm
 SHA1 fada08a138c7f5d0c435fbd184ebfbd975f5da7d t/pod.t
 SHA1 7dfbc25c2ead100477bc171b71bb85ba596adcc7 t/pod_coverage.t
-SHA1 467e7603cfc807aa7bd33480864b535018216d78 t/randbyte.t
-SHA1 d3895ff017283a27d281252f7bdecadf973077b1 t/randnum.t
+SHA1 21cee823d8aeaeaf233b1b8566cc47acd37c4fe8 t/rand.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.4 (Darwin)
+Version: GnuPG v1.4.3 (Darwin)
 
-iD8DBQFFazOUhPK6VMqoyC0RAgfjAJ9ZlaXpjlhsZ58yHR2zVmeU8qLeyACdEZ48
-qV+NWR9QnUoUrpw4l/q7LLw=
-=6OCu
+iD8DBQFJe3O8hPK6VMqoyC0RAtw6AJ9E3U8eC7XKcIRouwQ8SaUPYHV6XQCgrwkT
+TwHmgh08xCFy7M0fGboQNfQ=
+=gOv1
 -----END PGP SIGNATURE-----
