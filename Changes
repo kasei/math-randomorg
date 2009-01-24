@@ -1,5 +1,8 @@
 Revision history for Perl extension Math/RandomOrg.pm:
 
+0.05	XXX
+	- Updated code to work with new(-ish) random.org API.
+
 0.04	Mon Nov 27 2006
 	- Changes to conform to CPANTS Kwalitee:
 	  - Added pod tests.

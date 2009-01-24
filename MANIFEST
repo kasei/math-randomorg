@@ -5,8 +5,7 @@ META.yml
 MANIFEST
 MANIFEST.SKIP
 README
-t/randbyte.t
-t/randnum.t
+t/rand.t
 t/pod.t
 t/pod_coverage.t
 SIGNATURE
