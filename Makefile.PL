@@ -13,7 +13,6 @@ WriteMakefile(
     'VERSION_FROM'	=> 'lib/Math/RandomOrg.pm', # finds $VERSION
     'PREREQ_PM'		=> {
     					'LWP'			=> 0,
-    					'Math::BigInt'	=> 0,
+    					'Math::BigInt'	=> 1.15,
     				}
 );
-
