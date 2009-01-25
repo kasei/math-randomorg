@@ -57,7 +57,7 @@ require Exporter;
 
 @EXPORT_OK = qw( checkbuf randnum randbyte randseq );
 @EXPORT = qw();
-$VERSION = '0.05_01';
+$VERSION = '0.05_02';
 
 use Carp;
 use Math::BigInt;
