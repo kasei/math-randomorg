@@ -18,10 +18,6 @@ using the C<randnum> and C<randbyte> functions respectively.
 
 =over 4
 
-=item Carp
-
-=item Exporter
-
 =item Math::BigInt
 
 =item LWP::UserAgent
@@ -46,6 +42,7 @@ None by default. You may request the following symbols be exported:
 
 package Math::RandomOrg;
 
+use 5.006;
 use strict;
 use warnings;
 use Scalar::Util qw(blessed);
@@ -57,7 +54,7 @@ require Exporter;
 
 @EXPORT_OK = qw( checkbuf randnum randbyte randseq );
 @EXPORT = qw();
-$VERSION = '0.05_02';
+$VERSION = '0.05_03';
 
 use Carp;
 use Math::BigInt;
@@ -267,7 +264,7 @@ __END__
 
 =head1 COPYRIGHT
 
-Copyright (c) 2001-2009 Gregory Todd Williams. All rights reserved. This
+Copyright (c) 2001-2014 Gregory Todd Williams. All rights reserved. This
 program is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
 

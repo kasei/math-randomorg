@@ -1,18 +1,25 @@
-# use ExtUtils::MakeMaker;
+use strict;
+use warnings;
+
 use inc::Module::Install;
 
+name				'Math-RandomOrg';
+all_from			'lib/Math/RandomOrg.pm';
+author				'Gregory Todd Williams <gwilliams@cpan.org>';
 license				'perl';
-build_requires		'Test::More'	=> '0.42';
-no_index			'directory'		=> 'examples';
+
+build_requires		'Test::More'				=> '0.42';
+
 perl_version		'5.006';
 
-WriteMakefile(
-    'NAME'			=> 'Math::RandomOrg',
-    'AUTHOR'		=> 'Gregory Todd Williams <gwilliams@cpan.org>',
-    'ABSTRACT'		=> 'Retrieve random numbers and data from the random.org webservice.',
-    'VERSION_FROM'	=> 'lib/Math/RandomOrg.pm', # finds $VERSION
-    'PREREQ_PM'		=> {
-    					'LWP'			=> 0,
-    					'Math::BigInt'	=> 1.15,
-    				}
-);
+requires			'Math::BigInt'				=> 1.15;
+requires			'LWP'						=> 0;
+requires			'Scalar::Util'				=> 0;
+
+no_index			'directory'		=> 'examples';
+
+author_tests('xt');
+
+sign;
+
+WriteAll;
